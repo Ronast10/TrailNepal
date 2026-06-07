@@ -1,11 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import Contact from './components/common/Contact';
 import Home from './pages/home/Home';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Trails from './pages/trails/Trails'
 import TrailDetail from './pages/trails/TrailDetail'
+import Journal from './pages/journal/Journal';
+import AddStory from './pages/journal/AddStory';
 
 export default function App() {
   return (
@@ -25,8 +28,11 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/trails" element={<Trails />} />
             <Route path="/trails/:slug" element={<TrailDetail />} />
+            <Route path="/journal" element={<Journal />} />
+            <Route path="/journal/add" element={<AddStory />} />
           </Routes>
         </main>
         

@@ -87,6 +87,96 @@ const trails = [
     endPoint: 'Chautara',
     category: 'trek',
   },
+    {
+  id: 6,
+  title: 'Langtang Valley',
+  slug: 'langtang-valley',
+  region: 'Langtang',
+  difficulty: 'Moderate',
+  duration: '7-10 Days',
+  elevation: '3,870m',
+  distance: '65 km',
+  season: 'Mar-May, Sep-Nov',
+  image: '/langtang.avif',
+  description: 'A spectacular trek through the Langtang region featuring alpine forests, glacial rivers, traditional Tamang villages, and stunning mountain scenery.',
+  highlights: [
+    'Kyanjin Gompa',
+    'Tamang Culture',
+    'Langtang National Park',
+    'Mountain Views'
+  ],
+  startPoint: 'Syabrubesi',
+  endPoint: 'Syabrubesi',
+  category: 'trek',
+},
+{
+  id: 7,
+  title: 'Ama Yangri',
+  slug: 'ama-yangri',
+  region: 'Helambu',
+  difficulty: 'Easy',
+  duration: '1-2 Days',
+  elevation: '3,771m',
+  distance: '12-15 km',
+  season: 'Mar-May, Sep-Nov',
+  image: '/amayangri.webp',
+  description: 'A short and rewarding trek in the Helambu region leading to Ama Yangri peak, offering panoramic Himalayan views, peaceful trails, and rich Tamang cultural experiences.',
+  highlights: [
+    'Ama Yangri Peak Viewpoint',
+    'Tamang Villages',
+    'Himalayan Panorama',
+    'Sunrise & Sunset Views'
+  ],
+  startPoint: 'Tarkeghyang',
+  endPoint: 'Tarkeghyang',
+  category: 'trek',
+},
+{
+  id: 8,
+  title: 'Manaslu Circuit Trek',
+  slug: 'manaslu-circuit',
+  region: 'Manaslu',
+  difficulty: 'Challenging',
+  duration: '14-18 Days',
+  elevation: '5,106m',
+  distance: '177 km',
+  season: 'Mar-May, Sep-Nov',
+  image: '/manaslu-circuit.avif',
+  description: 'A remote and challenging trek circling Mount Manaslu, the world’s eighth highest peak, offering dramatic mountain landscapes, Tibetan-influenced villages, and high mountain passes like Larke La Pass.',
+  highlights: [
+    'Larke La Pass (5,106m)',
+    'Mount Manaslu Views',
+    'Tibetan Culture & Monasteries',
+    'Budi Gandaki Valley',
+    'Remote Wilderness Experience'
+  ],
+  startPoint: 'Soti Khola',
+  endPoint: 'Dharapani',
+  category: 'trek',
+},
+{
+  id: 9,
+  title: 'Sailung',
+  slug: 'sailung',
+  region: 'Dolakha',
+  difficulty: 'Easy',
+  duration: '1-2 Days',
+  elevation: '3,146m',
+  distance: '10-14 km',
+  season: 'Mar-May, Sep-Nov',
+  image: '/sailung.webp',
+  description: 'A peaceful short trek to Sailung Hill, known for its panoramic 360-degree Himalayan views, rolling green hills, and spiritual significance with Buddhist and Hindu shrines scattered across the ridge.',
+  highlights: [
+    'Sailung Hill Viewpoint',
+    'Panoramic Himalayan Views',
+    'Sunrise & Sunset Scenery',
+    'Buddhist & Hindu Shrines',
+    'Rolling Green Hills'
+  ],
+  startPoint: 'Deurali / Dhungre Bazaar',
+  endPoint: 'Deurali / Dhungre Bazaar',
+  category: 'trek',
+},
 ]
 
 const difficultyColor = {
@@ -112,7 +202,7 @@ export default function Trails() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
           <div style={{ width: '28px', height: '1px', background: '#4a5240' }} />
           <span style={{ fontSize: '0.72rem', letterSpacing: '0.25em', textTransform: 'uppercase', color: '#78716c' }}>
-         Discover Nepal
+            Discover Nepal
           </span>
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '24px' }}>
