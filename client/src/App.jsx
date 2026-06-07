@@ -9,6 +9,7 @@ import Trails from './pages/trails/Trails'
 import TrailDetail from './pages/trails/TrailDetail'
 import Journal from './pages/journal/Journal';
 import AddStory from './pages/journal/AddStory';
+import TermsAndPolicy from './pages/TermsAndPolicy';
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
             <Route path="/trails/:slug" element={<TrailDetail />} />
             <Route path="/journal" element={<Journal />} />
             <Route path="/journal/add" element={<AddStory />} />
+            <Route path="/terms-and-policy" element={<TermsAndPolicy />} />
           </Routes>
         </main>
         
